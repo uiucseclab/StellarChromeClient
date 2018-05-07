@@ -1,6 +1,8 @@
 # StellarChromeClient
 
-The project is a chrome extension wallet for the Stellar cryptocurrency. It can create and log in to accounts created on the testnet, check blance and perform transactions.  
+The project is a chrome extension wallet for the Stellar cryptocurrency. It can create and log in to accounts created on the testnet, check blance and perform transactions. 
+
+Once the account is created, the secret key is encrypted with CryptoJS (AES) and stored in Chrome's local storage. The only time the secret key is decrypted is when performing an transaction
 
 ## Usage 
 
