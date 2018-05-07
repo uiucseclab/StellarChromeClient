@@ -1,6 +1,5 @@
 # StellarChromeClient
 
-## Desctiption
 The project is a chrome extension wallet for the Stellar cryptocurrency. It can create and log in to accounts created on the testnet, check blance and perform transactions.  
 
 ## Usage 
