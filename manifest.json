@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Stellar Chrome Client",
+  "description": "This extension will analyze a page using GTmetrix",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "/resources/icons/icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128":"/resources/icons/icon.png",
+    "48":"/resources/icons/icon.png",
+    "16":"/resources/icons/icon.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' https://*.jquery.com/*; object-src 'self'"
+
+}

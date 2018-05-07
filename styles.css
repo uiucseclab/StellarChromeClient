@@ -1,0 +1,155 @@
+body {
+    width:360px;
+    height:550px;
+    
+    /* border: 1px solid black; */
+    padding:0;
+    background-color: #c4eaff;
+/*    display:grid;*/
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    
+}
+
+div.top {
+    background-color: #c4eaff;
+    width:auto;
+    height:auto;
+    padding: 10px;
+}
+
+div.secondPage {
+    background-color: #c4eaff;
+    width:auto;
+    height:auto;
+    padding: 10px;
+}
+p {
+    text-align: center;
+}
+p.notice {
+    color:gray;
+}
+p.title {
+    /* border: 1px solid blue; */
+    text-align: center;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #F5852F;
+}
+h3 {
+    text-align: center;
+    /* border: 1px solid blue; */
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #F5852F;
+}
+
+h4 {
+    text-align: center;
+    /* border: 1px solid blue; */
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:gray;
+    word-wrap: break-word;
+}
+
+input {
+    outline: none;
+} 
+button {
+    outline: none;
+}
+.button {
+    width: 100px;
+    height: 45px;
+     
+    color: white;
+    background-color: #F5852F;
+    border-radius: 4px;
+    
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button.button.shad:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    font-size: 14px;
+/*    text-align: center;*/
+}
+input[type=number], select {
+    width: 80%;
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    font-size: 14px;
+/*    text-align: center;*/
+}
+input[type=password], select {
+    width: 80%;
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    font-size: 14px;
+/*    text-align: center;*/
+}
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+ 
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+ }

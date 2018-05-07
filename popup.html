@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Stellar Chrome Client</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
+    <!-- <script data-main="scripts/main" src="scripts/require.js"></script> -->
+    <script type="text/javascript" src="./bower_components/crypto-js/crypto-js.js"></script>
+
+    <!-- <script type="text/javascript" src="./bower_components/request/request.js"></script> -->
+    <script src="./bower_components/stellar-sdk/stellar-sdk.min.js"></script>
+    <!-- <script src="popup.js"></script> -->
+    <script src="popup.js"></script>
+
+</head>
+
+<body>
+    <div class="top">
+        <img src="./resources/stellar-rocke.png">
+
+        <p class="title unselectable" id="titleText">Stellar Chrome Client</p>
+        <input type="password" class="unselectable" id="password" placeholder="Enter password">
+
+        <button class="button shad unselectable" id="logInBtn">Log In</button>
+        <button class="button shad unselectable" id="createAcctBtn">Create New Account</button>
+        <p id="loginResponse" class="notice unselectable"></p>
+    </div>
+
+    <div class="secondPage" hidden=true>
+        <h3 class="centertext unselectable">Account Number </h3>
+        <h4 id="publicKey" class="centertext"></h4>
+        <h3 class="centertext unselectable">Balance </h3>
+        <h4 id="balance" class="centertext unselectable"></h4>
+
+        <button id="refreshBalanceBtn" class="button shad unselectable"> Refresh Balance </button>
+        <h3 class="unselectable"> Send Lumens </h3>
+        <input id="destAcct" class="unselectable" type="text" placeholder="Enter Destination Account Number">
+        <input id="sendAmount" class="unselectable" type="number" placeholder="Enter Amount">
+        <button id="confirmSend" class="button shad unselectable"> Confirm Send </button>
+        <p id="sendResponse" class="notice unselectable"></p>
+    </div>
+
+
+
+</body>
+
+</html>
