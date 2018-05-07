@@ -1,9 +1,9 @@
 # StellarChromeClient
 
-# Desctiption
+## Desctiption
 The project is a chrome extension wallet for the Stellar cryptocurrency. It can create and log in to accounts created on the testnet, check blance and perform transactions.  
 
-# Usage 
+## Usage 
 
 In Chrome, open Extensions configuration page by going to `chrome://extensions/`
 
@@ -15,4 +15,4 @@ To create an account, type in any password and hit `Craete New Account`. Once th
 
 To login to the created account, type in the password and hit `Log In`.
 
-To send an transaction, enter a amount and any valid account number/public key on the testnet. E.g. `GASOCNHNNLYFNMDJYQ3XFMI7BYHIOCFW3GJEOWRPEGK2TDPGTG2E5EDW`
+To perform a transaction, enter an valid amount and any valid account number/public key on the testnet. E.g. `GASOCNHNNLYFNMDJYQ3XFMI7BYHIOCFW3GJEOWRPEGK2TDPGTG2E5EDW`
